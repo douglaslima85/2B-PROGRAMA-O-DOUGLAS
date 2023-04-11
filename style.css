@@ -6,8 +6,19 @@
 
 .cabecalho{
     background-color: var(--azul-forte);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 25px;
+    color: var(--branco-azulado);
+    font-size: 25px; 
 }
 
 .logo{
     width: 12%;
+    margin: 7px;
 }
