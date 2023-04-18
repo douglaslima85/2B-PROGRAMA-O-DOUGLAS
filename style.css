@@ -4,6 +4,11 @@
    --branco-azulado: #EBEFF5;
 }
 
+*{
+   margin: 0;
+   padding: 0;
+}
+
 .cabecalho{
     background-color: var(--azul-forte);
     display: flex;
@@ -21,4 +26,9 @@
 .logo{
     width: 12%;
     margin: 7px;
+}
+
+.principal{
+    background-color: var(--azul-forte);
+    background-image: linear-gradient(var(--azul-roxo),var(--branco-azulado));
 }
