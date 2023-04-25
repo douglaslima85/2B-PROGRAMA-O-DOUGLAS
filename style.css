@@ -29,6 +29,24 @@
 }
 
 .principal{
-    background-color: var(--azul-forte);
-    background-image: linear-gradient(var(--azul-roxo),var(--branco-azulado));
+    background-color: var(--branco-azulado);
+    background-image: linear-gradient(var(--azul-forte),var(--branco-azulado));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal-texto{
+    padding: 70px;
+    font-size: 25px;
+    font-size: 20px;
+}
+.principal-titulo{
+    margin: 45px;
+    font-size: 30%;
+    padding: 15px;
+}
+.principal-imagem{
+    width: 70px;
+    margin: 10px;
+    padding: 10px;
 }
